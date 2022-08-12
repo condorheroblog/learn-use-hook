@@ -1,0 +1,30 @@
+{
+  "name": "learn-use-hook",
+  "private": true,
+  "type": "module",
+  "description": "Learn React hook and Vue Composition best practices",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/condorheroblog/learn-use-hook.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/condorheroblog/learn-use-hook/issues"
+  },
+  "author": "CondorHero",
+  "homepage": "https://github.com/condorheroblog/learn-use-hook",
+  "keywords": [
+    "hook",
+    "hooks",
+    "composition"
+  ],
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4"
+  }
+}

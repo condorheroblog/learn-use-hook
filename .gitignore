@@ -1,0 +1,23 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# The compiled/babelified modules
+dist/
+
+## editor
+.idea/
+
+#.vscode/
+.prettierrc
+
+docs/.vuepress/.cache
+docs/.vuepress/.temp
