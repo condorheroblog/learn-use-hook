@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /overview
+      link: /why-learn-use-hook
     - theme: alt
       text: View on GitHub
       link: https://github.com/condorheroblog/learn-use-hook

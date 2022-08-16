@@ -21,11 +21,11 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: '介绍',
+        text: '开始',
         items: [
           {
-            text: '总览',
-            link: '/overview'
+            text: '为什么有这个专栏',
+            link: '/why-learn-use-hook'
           }
         ],
       },
@@ -34,8 +34,8 @@ export default defineConfig({
         items: [
           {
             text: 'Vue Composition 介绍',
-            link: '/vue/introduction'
-          }
+            link: '/vue/introduction',
+          },
         ],
       },
       {
@@ -51,7 +51,7 @@ export default defineConfig({
     nav: [
       {
         text: '开始',
-        link: '/overview'
+        link: '/why-learn-use-hook'
       }
     ]
   }
