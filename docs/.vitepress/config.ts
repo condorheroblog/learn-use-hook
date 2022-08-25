@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { name, description } from '../../package.json'
 
+
 export default defineConfig({
   title: name,
   description,
@@ -19,15 +20,56 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022 - present CondorHero'
     },
-    sidebar: [
+    sidebar: {
+      '/': [
+        {
+          text: '开始',
+          items: [
+            {
+              text: '为什么有这个专栏',
+              link: '/why-learn-use-hook'
+            }
+          ],
+        },
+        {
+          text: 'Vue',
+          items: [
+            {
+              text: 'Vue Composition 介绍',
+              link: '/vue/introduction',
+            },
+            {
+              text: 'State',
+              link: '/vue/state/',
+            },
+          ],
+        },
+        {
+          text: 'React',
+          items: [
+            {
+              text: 'React Hooks 介绍',
+              link: '/react/introduction'
+            }
+          ],
+        },
+      ],
+      '/vue/state/': [
+        {
+          text: 'State',
+          items: [
+            {
+              text: 'useStorage',
+              link: '/vue/state/useStorage',
+            },
+          ],
+        }
+      ]
+    },
+    nav: [
       {
         text: '开始',
-        items: [
-          {
-            text: '为什么有这个专栏',
-            link: '/why-learn-use-hook'
-          }
-        ],
+        link: '/why-learn-use-hook'
       },
       {
         text: 'Vue',
@@ -36,22 +78,16 @@ export default defineConfig({
             text: 'Vue Composition 介绍',
             link: '/vue/introduction',
           },
-        ],
-      },
-      {
-        text: 'React',
-        items: [
           {
-            text: 'React Hooks 介绍',
-            link: '/react/introduction'
-          }
+            text: 'State',
+            items: [
+              {
+                text: 'useStorage',
+                link: '/vue/state/useStorage',
+              },
+            ],
+          },
         ],
-      },
-    ],
-    nav: [
-      {
-        text: '开始',
-        link: '/why-learn-use-hook'
       }
     ]
   }
